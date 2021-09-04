@@ -1,4 +1,4 @@
-**<h1 align="center"><u>👋 Hello! I'm AJR</u></h1><br>*
+**<h1 align="center"><u>👋 Hello! I'm AJR</u></h1><br>**
 
 ---
 
