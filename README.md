@@ -1,6 +1,16 @@
-**<h1 align="center"><u>👋 Hello! I'm AJR</u></h1><br>**
+**<h1 align="center"><u>👋 Hello! I'm AJR</u></h1><br>*
 
 ---
+
+**<h2> Currently working on:</h2>**
+
+**- <a href="https://github.com/AJR07/chess">Chess App!</a>** View it <a href ="https://ajr-chess-app.web.app"/> here! </a>
+
+**- <a href="https://github.com/MaxiGames/MaxiGames">MaxiGames Discord Bot!</a>** Vote it <a href="https://top.gg/bot/863419048041381920/vote">on top.gg</a> and invite it <a href="https://discord.com/oauth2/authorize?client_id=863419048041381920&permissions=8&scope=bot%20applications.commands">here!</a>
+
+---
+
+
 **<h2>Tools:</h2>** <br>
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)  ![Repl.it](https://img.shields.io/badge/Repl.it-%230D101E.svg?style=for-the-badge&logo=replit&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
@@ -26,14 +36,6 @@
 [![Stats](https://github-readme-stats.vercel.app/api?username=AJR07&show_icons=true&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AJR07&layout=compact&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-**<h3> Currently working on:</h3>**
-
-**- <a href="https://github.com/AJR07/chess">Chess App!</a>** View it <a href ="https://ajr-chess-app.web.app"/> here! </a>
-
-**- <a href="https://github.com/MaxiGames/MaxiGames">MaxiGames Discord Bot!</a>** Vote it <a href="https://top.gg/bot/863419048041381920/vote">on top.gg</a> and invite it <a href="https://discord.com/oauth2/authorize?client_id=863419048041381920&permissions=8&scope=bot%20applications.commands">here!</a>
 
 <br>
 <br>
