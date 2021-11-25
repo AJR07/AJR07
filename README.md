@@ -4,9 +4,16 @@
 
 **<h2> Currently working on:</h2>**
 
-**- <a href="https://github.com/AJR07/chess">Chess App!</a>** View it <a href ="https://ajr-chess-app.web.app"/> here! </a>
+**- <a href="https://github.com/AJR07/gamezzz">Gamezzz App!</a>** View it <a href ="https://ajr-chess-app.web.app"/> here! </a>
 
 **- <a href="https://github.com/MaxiGames/MaxiGames">MaxiGames Discord Bot!</a>** Vote it <a href="https://top.gg/bot/863419048041381920/vote">on top.gg</a> and invite it <a href="https://discord.com/oauth2/authorize?client_id=863419048041381920&permissions=8&scope=bot%20applications.commands">here!</a>
+
+
+---
+
+**<h2>Cool (Finished) Projects</h2>**
+
+**- ![Writezi Icon](https://github.com/AJR07/AJR07/blob/main/Writezi.jpg?raw=true) <a href="https://github.com/swiftinsg/2021-writezi"> Writezi! </a>** (Done in swift accelerator 2021). Download the app <a href="http://tk.sg/sis22-writezi">here! </a>
 
 ---
 
