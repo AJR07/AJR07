@@ -13,7 +13,10 @@
 
 **<h2>Cool (Finished) Projects</h2>**
 
-**- ![Writezi Icon](https://github.com/AJR07/AJR07/blob/main/Writezi.jpg?raw=true) <a href="https://github.com/swiftinsg/2021-writezi"> Writezi! </a>** (Done in swift accelerator 2021). Download the app <a href="http://tk.sg/sis22-writezi">here! </a>
+
+<img src="https://github.com/AJR07/AJR07/blob/main/Writezi.png?raw=true" alt="Writezi Icon" style="width:100px;"/>
+
+**<a href="https://github.com/swiftinsg/2021-writezi"> Writezi! </a>** (Done in swift accelerator 2021). Download the app <a href="http://tk.sg/sis22-writezi">here! </a>
 
 ---
 
