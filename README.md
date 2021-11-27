@@ -43,9 +43,12 @@
 
 ---
 
+**<h2>Statistics<h2>**
 [![Stats](https://github-readme-stats.vercel.app/api?username=AJR07&show_icons=true&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AJR07&layout=compact&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AJR07&theme=blue-green&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
  ---
 
