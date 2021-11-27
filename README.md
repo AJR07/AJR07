@@ -20,8 +20,7 @@
 
 ---
 
-
-**<h2>Tools:</h2>** <br>
+**<h2>Tools:</h2>**
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
 ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white) 
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)  
@@ -37,13 +36,13 @@
 
 ---
 
-**<h2>Frameworks:<h2>**
+**<h2>Frameworks:</h2>**
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ---
 
-**<h2>Languages Learned:<h2>**
+**<h2>Languages Learned:</h2>**
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
@@ -54,7 +53,7 @@
 
 ---
 
-**<h2>Statistics<h2>**
+**<h2>Statistics</h2>**
 [![Stats](https://github-readme-stats.vercel.app/api?username=AJR07&show_icons=true&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AJR07&layout=compact&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
