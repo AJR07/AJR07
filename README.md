@@ -4,7 +4,7 @@
 
 **<h2> Currently working on:</h2>**
 
-**- <a href="https://github.com/AJR07/gamezzz">Gamezzz App!</a>** View it <a href ="https://ajr-chess-app.web.app"/> here! </a>
+**- <a href="https://github.com/AJR07/gamezzz">Chess App!</a>** View it <a href ="https://chess-ajr07.web.app"/> here! </a>
 
 **- <a href="https://github.com/MaxiGames/MaxiGames">MaxiGames Discord Bot!</a>** Vote it <a href="https://top.gg/bot/863419048041381920/vote">on top.gg</a> and invite it <a href="https://discord.com/oauth2/authorize?client_id=863419048041381920&permissions=8&scope=bot%20applications.commands">here!</a>
 
