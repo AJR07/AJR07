@@ -2,7 +2,7 @@
 
 I enjoy coding as a hobby, and am currently exploring all things technology :D
 
-## The Best Finished Projects</h2>
+## Finished Projects</h2>
 
 1. **<a href="https://github.com/swiftinsg/2021-writezi"> WriteZi </a>** (Swift Accelerator 2021). Download the app <a href="http://tk.sg/sis22-writezi">here! </a>
 
@@ -14,7 +14,7 @@ I enjoy coding as a hobby, and am currently exploring all things technology :D
 
 5. **<a href="https://github.com/MaxiGames/MaxiGames.js">MaxiGames</a>** (Amazing multi-purpose discord bot, unfortunately offline as I can't find a suitable hosting site).
 
-6. **<a href="https://github.com/AJR07/Countdown">Countdown</a>** (My first project in svelte, built to replace <a href="https://days-till-school-end.web.app/">Days Till School End</a>). View it <a href="countdown-ajr07.vercel.app">here!</a>
+6. **<a href="https://github.com/AJR07/Countdown">Countdown</a>** (My first project in svelte, built to replace <a href="https://days-till-school-end.web.app/">Days Till School End</a>). View it <a href="https://countdown-ajr07.vercel.app">here!</a>
 
 7. **<a href="https://github.com/AJR07/Link-Shorterner">Link-Shorterner</a>** (Built as a fun april-fools project). View it <a href="https://github.com/AJR07/Link-Shorterner">here!</a>
 
