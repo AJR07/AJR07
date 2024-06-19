@@ -23,6 +23,10 @@
     "@tailwindcss/typography": "^0.5.13"
   },
   "dependencies": {
-    "@rollup/rollup-win32-x64-msvc": "^4.18.0"
+    "@rollup/rollup-win32-x64-msvc": "^4.18.0",
+    "@types/node": "^20.14.5",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwind-variants": "^0.2.1"
   }
 }
