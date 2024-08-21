@@ -2,7 +2,9 @@
 	<div class="mx-auto max-w-full px-2 sm:px-6 lg:px-8">
 		<div class="relative flex h-16 items-center justify-between">
 			<!-- Start items -->
-			<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"></div>
+			<div
+				class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
+			></div>
 
 			<!-- End items -->
 			<div
