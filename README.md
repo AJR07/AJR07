@@ -18,11 +18,11 @@ I enjoy coding as a hobby, and am currently exploring all things technology :D
 
 7. **<a href="https://github.com/AJR07/Link-Shorterner">Link-Shorterner</a>** (Built as a fun april-fools project). View it <a href="https://github.com/AJR07/Link-Shorterner">here!</a>
 
-
 ## Things I Code With
-![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white) 
+
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) 
+![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
@@ -38,13 +38,12 @@ I enjoy coding as a hobby, and am currently exploring all things technology :D
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 
-
 ## Account Stats
+
 [![Stats](https://github-readme-stats.vercel.app/api?username=AJR07&show_icons=true&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AJR07&layout=compact&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AJR07&theme=blue-green&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
 
 **<h1><center>That's all! :D</center></h1>**

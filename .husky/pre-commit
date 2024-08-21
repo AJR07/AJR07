@@ -1,1 +1,2 @@
-git-format-staged -f 'prettier --ignore-unknown --stdin --stdin-filepath "{}"' .
+prettier --write .
+git add --all .
