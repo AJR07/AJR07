@@ -1,6 +1,8 @@
 export default {
   plugins: {
     tailwindcss: {},
-    autoprefixer: {}
+    autoprefixer: {},
+    'postcss-import': {},
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
   }
 };
