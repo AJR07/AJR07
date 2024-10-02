@@ -1,7 +1,3 @@
-<script lang="ts">
-	import '../app.css';
-</script>
-
 <div id="container" class="mb-16">
 	<div id="main" class="flex min-h-svh flex-col items-center">
 		<img
@@ -21,7 +17,7 @@
 				About Me
 			</a>
 			<span class="mx-10 text-[3vw] font-bold"> • </span>
-			<a class="px-5 text-[3vw] font-bold hover:underline" href="/projects">
+			<a class="px-5 text-[3vw] font-bold hover:underline" href="/#/projects">
 				Projects
 			</a>
 		</div>

@@ -9,6 +9,7 @@
 
 	const routes = {
 		'/': Home,
+		'/projects': Projects,
 		'*': NotFound
 	};
 </script>
