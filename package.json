@@ -12,6 +12,7 @@
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",
 		"@tailwindcss/typography": "^0.5.13",
+		"@tsconfig/svelte": "^5.0.4",
 		"autoprefixer": "^10.4.19",
 		"git-format-staged": "^3.1.1",
 		"postcss": "^8.4.38",
