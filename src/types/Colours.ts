@@ -1,9 +1,9 @@
 export enum Colour {
-    Red = "red",
-    Green = "green",
-    Blue = "blue",
-    Yellow = "yellow",
-    Purple = "purple"
+    red = "red",
+    green = "green",
+    blue = "blue",
+    yellow = "yellow",
+    purple = "purple"
 }
 
 export type ColourInfo = {

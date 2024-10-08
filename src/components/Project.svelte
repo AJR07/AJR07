@@ -3,41 +3,27 @@
 	import type { ProjectInfo } from 'src/types/ProjectInfo';
 
 	export let projectInfo: ProjectInfo;
-
-	const COLOURS: {
-		[key in Colour]: ColourInfo
-	} = {
-		"blue": {
-			colour: '#85A6D7',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
-			overlay: 'rgba(33, 122, 255, 0.1)'
-		},
-		// TODO: UPDATE
-		"green": {
-			colour: '#85D7A9',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
-			overlay: 'rgba(33, 122, 255, 0.1)'
-		},
-		"red": {
-			colour: '#D78585',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
-			overlay: 'rgba(33, 122, 255, 0.1)'
-		},
-		"yellow": {
-			colour: '#D7D785',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
-			overlay: 'rgba(33, 122, 255, 0.1)'
-		},
-		"purple": {
-			colour: '#D785D7',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
-			overlay: 'rgba(33, 122, 255, 0.1)'
-		}
-	};
-	const chosenColour = COLOURS[projectInfo.colour];
+	export let chosenColour: ColourInfo;
 </script>
 
-<div class="flex h-auto w-40 flex-col rounded">
-	<h3>{projectInfo.title}</h3>
+<div
+	class="flex h-auto w-2/5 flex-col gap-2 rounded p-6"
+	style="{`background: ${chosenColour.background}; color: ${chosenColour.colour}`}"
+>
+	<h3 class="text-4xl font-bold hover:underline hover:cursor-pointer">
+		<a href="{projectInfo.primaryLink}">{projectInfo.title} v{projectInfo.version}</a>
+	</h3>
+	<div class="flex flex-row gap-2">
+		<span
+			class="inline-flex items-center rounded bg-green-50 px-2 py-1 text-xs font-medium text-green-800"
+		>
+			Created: {projectInfo.createdAt.toLocaleDateString()}
+		</span>
+		<span
+			class="inline-flex items-center rounded bg-orange-50 px-2 py-1 text-xs font-medium text-orange-800"
+		>
+			Last Updated: {projectInfo.lastUpdated.toLocaleDateString()}
+		</span>
+	</div>
 	<p>{projectInfo.description}</p>
 </div>

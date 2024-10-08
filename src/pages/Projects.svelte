@@ -12,11 +12,14 @@
 		</h1>
 		<div >
 			<Container projects={[{
-				title: "Goose",
-				description: "Wobble",
+				title: "Countdown",
+				version: "1.1.0",
+				description: "A simple app to store and display countdowns to important event.",
+				primaryLink: "https://countdown-ajr07.vercel.app/",
+				links: [],
 				createdAt: new Date ("2021-09-01"),
 				lastUpdated: new Date ("2021-09-01"),
-			}]} />
+			}]} colourChoice={"blue"} />
 		</div>
 	</div>
 </div>
