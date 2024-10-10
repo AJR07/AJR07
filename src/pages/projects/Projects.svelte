@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Container from '../components/Container.svelte';
-	import projectContainers from '../data/projects.json';
-	import { Colour } from '../types/Colours';
+	import Container from './Container.svelte';
+	import projectContainers from '../../data/projects.json';
+	import { Colour } from '../../types/Colours';
 
 	const processedProjectContainers = projectContainers.map(container => ({
         ...container,
