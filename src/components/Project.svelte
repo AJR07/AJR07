@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="flex h-auto w-2/5 flex-col gap-2 rounded-lg p-6 shadow-md transform transition duration-500 hover:scale-102"
+	class="flex h-auto w-full flex-col gap-2 rounded-lg p-6 shadow-md transform transition duration-500 hover:scale-102"
 	style="{`background: ${chosenColour.overlay}; color: ${chosenColour.colour}`}"
 >
 	<h3 class="text-3xl font-bold hover:underline hover:cursor-pointer">
