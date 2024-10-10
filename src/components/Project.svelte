@@ -7,13 +7,11 @@
 </script>
 
 <div
-	class="flex h-auto w-2/5 transform flex-col gap-2 rounded-lg p-6 shadow-md transition duration-500 hover:scale-105"
+	class="flex h-auto w-2/5 flex-col gap-2 rounded-lg p-6 shadow-md transform transition duration-500 hover:scale-102"
 	style="{`background: ${chosenColour.overlay}; color: ${chosenColour.colour}`}"
 >
-	<h3 class="text-3xl font-bold hover:cursor-pointer hover:underline">
-		<a href="{projectInfo.primaryLink}"
-			>{projectInfo.title} v{projectInfo.version}</a
-		>
+	<h3 class="text-3xl font-bold hover:underline hover:cursor-pointer">
+		<a href="{projectInfo.primaryLink}">{projectInfo.title} v{projectInfo.version}</a>
 	</h3>
 	<div class="flex flex-row gap-2">
 		<span

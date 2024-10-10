@@ -1,5 +1,3 @@
-import { fontFamily } from 'tailwindcss/defaultTheme';
-
 /** @type {import('tailwindcss').Config} */
 const config = {
 	darkMode: 'media',
@@ -51,7 +49,10 @@ const config = {
 			},
 			fontFamily: {
 				sans: ['Roboto Flex', 'sans-serif']
-			}
+			},
+			scale: {
+                102: '1.02'
+            }
 		}
 	}
 };
