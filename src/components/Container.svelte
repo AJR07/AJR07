@@ -1,9 +1,11 @@
 <script lang="ts">
-	import type { ProjectInfo } from "src/types/ProjectInfo";
-	import Project from "./Project.svelte";
-	import type { Colour, ColourInfo } from "src/types/Colours";
+	import type { ProjectInfo } from 'src/types/ProjectInfo';
+	import Project from './Project.svelte';
+	import type { Colour, ColourInfo } from 'src/types/Colours';
 
-	export let projects: ProjectInfo[], colourChoice: keyof typeof Colour;
+	export let projects: ProjectInfo[];
+	export let colourChoice: keyof typeof Colour;
+	export let containerTitle: string;
 
 	const COLOURS: {
 		[key in Colour]: ColourInfo;
@@ -38,8 +40,16 @@
 	const chosenColour = COLOURS[colourChoice];
 </script>
 
-<div class="grid grid-rows-2 mx-5">
-	{#each projects as projectInfo}
-		<Project {projectInfo} {chosenColour} />
-	{/each}
+<div class="p-6" style="{`background: ${chosenColour.background}`}">
+	<h2
+		class="text-5xl font-bold mb-6"
+		style="{`color: ${chosenColour.colour}`}"
+	>
+		{containerTitle}
+	</h2>
+	<div class="grid grid-rows-2 gap-6">
+		{#each projects as projectInfo}
+			<Project {projectInfo} {chosenColour} />
+		{/each}
+	</div>
 </div>

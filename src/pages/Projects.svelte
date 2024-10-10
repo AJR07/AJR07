@@ -19,7 +19,7 @@
 				links: [],
 				createdAt: new Date ("2021-09-01"),
 				lastUpdated: new Date ("2021-09-01"),
-			}]} colourChoice={"blue"} />
+			}]} colourChoice={"blue"} containerTitle={"Web Development"} />
 		</div>
 	</div>
 </div>
