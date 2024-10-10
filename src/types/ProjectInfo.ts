@@ -1,5 +1,3 @@
-import type { Colour } from "./Colours";
-
 export interface ProjectInfo {
 	// metadata
 	title: string;
@@ -8,7 +6,10 @@ export interface ProjectInfo {
 
 	// links
 	primaryLink: string;
-	links: string[];
+	links: {
+		name: string,
+		link: string
+	}[];
 
 	// dates
 	createdAt: Date;

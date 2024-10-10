@@ -1,5 +1,6 @@
 <script lang="ts">
-	import type { Colour, ColourInfo } from 'src/types/Colours';
+	import { SquareArrowOutUpRight } from 'lucide-svelte';
+import type { ColourInfo } from 'src/types/Colours';
 	import type { ProjectInfo } from 'src/types/ProjectInfo';
 
 	export let projectInfo: ProjectInfo;
@@ -7,11 +8,13 @@
 </script>
 
 <div
-	class="flex h-auto w-full flex-col gap-2 rounded-lg p-6 shadow-md transform transition duration-500 hover:scale-102"
+	class="hover:scale-102 flex h-auto w-full transform flex-col gap-2 rounded-lg p-6 shadow-md transition duration-500"
 	style="{`background: ${chosenColour.overlay}; color: ${chosenColour.colour}`}"
 >
-	<h3 class="text-3xl font-bold hover:underline hover:cursor-pointer">
-		<a href="{projectInfo.primaryLink}">{projectInfo.title} v{projectInfo.version}</a>
+	<h3 class="text-3xl font-bold hover:cursor-pointer hover:underline">
+		<a href="{projectInfo.primaryLink}"
+			>{projectInfo.title} v{projectInfo.version}</a
+		>
 	</h3>
 	<div class="flex flex-row gap-2">
 		<span
@@ -26,4 +29,16 @@
 		</span>
 	</div>
 	<p>{projectInfo.description}</p>
+	<div id="links" class="flex flex-row gap-3">
+		{#each projectInfo.links as link}
+			<button
+				class="flex gap-2 items-center rounded px-4 py-2 font-bold text-white hover:scale-102"
+				style="{`background: ${chosenColour.overlay}`}"
+				on:click="{() => window.open(link.link, '_blank')}"
+			>
+				<SquareArrowOutUpRight/>
+				<span class="text-white">{link.name}</span>
+			</button>
+		{/each}
+	</div>
 </div>

@@ -8,7 +8,16 @@
 				"version": "1.1.0",
 				"description": "A simple app to store and display countdowns to important event.",
 				"primaryLink": "https://countdown-ajr07.vercel.app/",
-				"links": [],
+				"links": [
+					{
+						"name": "Github",
+						"link": "https://github.com/AJR07/Countdown"
+					},
+					{
+						"name": "App",
+						"link": "https://days-till-school-end.web.app/"
+					}
+				],
 				"createdAt": "2021-09-01",
 				"lastUpdated": "2021-09-01"
 			},

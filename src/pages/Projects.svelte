@@ -9,7 +9,7 @@
 		projects: container.projects.map(project => ({
 			...project,
 			createdAt: new Date(project.createdAt),
-			lastUpdated: new Date(project.lastUpdated)
+			lastUpdated: new Date(project.lastUpdated),
 		}))
     }));
 </script>
