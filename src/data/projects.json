@@ -105,7 +105,9 @@
 						"name": "Github (V2)",
 						"link": "https://github.com/AJR07/Graph-Visualiser-v2"
 					}
-				]
+				],
+				"createdAt": "2021-09-01",
+				"lastUpdated": "2021-09-01"
 			},
 			{
 				"title": "📊 Sorting Algorithm Visualizer",
