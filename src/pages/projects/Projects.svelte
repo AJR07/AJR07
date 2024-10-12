@@ -16,14 +16,22 @@
 </script>
 
 <div id="container" class="mb-16">
-		<SideNavbar />
+	<SideNavbar />
 	<div id="main" class="flex min-h-svh flex-col">
-		<h1
-			id="header"
-			class="mt-16 bg-gradient-to-r from-[#ff2020] to-[#fff700] !bg-clip-text text-center text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
-		>
-			PROJECTS
-		</h1>
+		<div class="flex flex-col h-svh">
+			<img
+				id="profile-picture"
+				src="AJR.png"
+				alt="AJR-profile"
+				class="-mb-[7.5%] -mt-[5%] w-3/4 self-center"
+			/>
+			<h1
+				id="header"
+				class="bg-gradient-to-r from-[#58ff5d] to-[#ffd000] !bg-clip-text text-center text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+			>
+				PROJECTS :D
+			</h1>
+		</div>
 		{#each processedProjectContainers as processedProjectContainer}
 			<Container
 				containerTitle="{processedProjectContainer.title}"
