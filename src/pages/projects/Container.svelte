@@ -39,7 +39,7 @@
 	const chosenColour = COLOURS[colourChoice];
 </script>
 
-<div class="p-6 h-min" style="{`background: ${chosenColour.background}`}">
+<div class="p-6 pl-48 h-min" style="{`background: ${chosenColour.background}`}">
 	<h2
 		class="text-5xl font-bold mb-6"
 		style="{`color: ${chosenColour.colour}`}"

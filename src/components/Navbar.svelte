@@ -1,4 +1,4 @@
-<nav class="fixed w-full bg-black z-10">
+<nav class="fixed w-full bg-black top-0 z-10">
 	<div class="mx-auto max-w-full px-2 sm:px-6 lg:px-8">
 		<div class="relative flex h-16 items-center justify-between">
 			<!-- Start items -->

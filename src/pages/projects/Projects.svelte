@@ -2,19 +2,21 @@
 	import Container from './Container.svelte';
 	import projectContainers from '../../data/projects.json';
 	import { Colour } from '../../types/Colours';
+	import SideNavbar from './SideNavbar.svelte';
 
-	const processedProjectContainers = projectContainers.map(container => ({
-        ...container,
-        colourChoice: container.colourChoice as Colour,
-		projects: container.projects.map(project => ({
+	const processedProjectContainers = projectContainers.map((container) => ({
+		...container,
+		colourChoice: container.colourChoice as Colour,
+		projects: container.projects.map((project) => ({
 			...project,
 			createdAt: new Date(project.createdAt),
-			lastUpdated: new Date(project.lastUpdated),
+			lastUpdated: new Date(project.lastUpdated)
 		}))
-    }));
+	}));
 </script>
 
 <div id="container" class="mb-16">
+		<SideNavbar />
 	<div id="main" class="flex min-h-svh flex-col">
 		<h1
 			id="header"
@@ -22,10 +24,12 @@
 		>
 			PROJECTS
 		</h1>
-		<div>
-			{#each processedProjectContainers as processedProjectContainer}
-				<Container containerTitle={processedProjectContainer.title} colourChoice={processedProjectContainer.colourChoice} projects={processedProjectContainer.projects} />
-			{/each}
-		</div>
+		{#each processedProjectContainers as processedProjectContainer}
+			<Container
+				containerTitle="{processedProjectContainer.title}"
+				colourChoice="{processedProjectContainer.colourChoice}"
+				projects="{processedProjectContainer.projects}"
+			/>
+		{/each}
 	</div>
 </div>
