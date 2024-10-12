@@ -4,30 +4,149 @@
 		"colourChoice": "blue",
 		"projects": [
 			{
-				"title": "Countdown",
+				"title": "🕙 Countdown",
 				"version": "1.1.0",
 				"description": "A simple app to store and display countdowns to important event.",
 				"primaryLink": "https://countdown-ajr07.vercel.app/",
 				"links": [
 					{
-						"name": "Github",
-						"link": "https://github.com/AJR07/Countdown"
+						"name": "V1.1",
+						"link": "https://countdown-ajr07.vercel.app/"
 					},
 					{
-						"name": "App",
+						"name": "V1.0",
 						"link": "https://days-till-school-end.web.app/"
+					},
+					{
+						"name": "Github",
+						"link": "https://github.com/AJR07/Countdown"
 					}
 				],
 				"createdAt": "2021-09-01",
 				"lastUpdated": "2021-09-01"
 			},
 			{
-				"title": "Countdown",
-				"version": "1.1.0",
-				"description": "A simple app to store and display countdowns to important event.",
-				"primaryLink": "https://countdown-ajr07.vercel.app/",
-				"links": [],
+				"title": "🔗 Link Shortener",
+				"version": "2.0",
+				"description": "A simple link shortener app for fun :D",
+				"primaryLink": "https://lsjr.vercel.app/",
+				"links": [
+					{
+						"name": "V2",
+						"link": "https://lsjr.vercel.app/"
+					},
+					{
+						"name": "V1",
+						"link": "https://link-short.web.app"
+					},
+					{
+						"name": "Github",
+						"link": "https://github.com/AJR07/Link-Shorterner"
+					}
+				],
+				"createdAt": "2021-04-19",
+				"lastUpdated": "2024-07-14"
+			},
+			{
+				"title": "♟️ Chess",
+				"version": "3.0",
+				"description": "A chess single-player app I made for fun, featuring basic move validation, checkmate detection and a few other features.",
+				"primaryLink": "https://lsjr.vercel.app/",
+				"links": [
+					{
+						"name": "V3",
+						"link": "https://chess-ajr07.web.app/"
+					},
+					{
+						"name": "Github",
+						"link": "https://github.com/AJR07/Chess-v3"
+					}
+				],
+				"createdAt": "2021",
+				"lastUpdated": "2022-09-11"
+			},
+			{
+				"title": "🔗 Typeracer",
+				"version": "1.0",
+				"description": "A multiplayer/singleplayer typeracer serverless webapp",
+				"primaryLink": "https://lsjr.vercel.app/",
+				"links": [
+					{
+						"name": "V1",
+						"link": "https://typeracer-ajr07.web.app/"
+					},
+					{
+						"name": "Github",
+						"link": "https://github.com/AJR07/Typeracer"	
+					}
+				],
+				"createdAt": "2023-01-18",
+				"lastUpdated": "2023-09-16"
+			},
+			{
+				"title": "🔎 Graph Visualizer",
+				"version": "2.0",
+				"description": "A simple tool to visualize graphs from adjacency matrixes, adjacency lists and edge lists. Originally done with @wangy412 :D",
+				"primaryLink": "https://lsjr.vercel.app/",
+				"links": [
+					{
+						"name": "V1",
+						"link": "https://ajr07.github.io/Graph-Visualiser/"
+					},
+					{
+						"name": "V2",
+						"link": "https://graph-visual.web.app/"
+					},
+					{
+						"name": "Github (V1)",
+						"link": "https://github.com/AJR07/Graph-Visualiser"
+					},
+					{
+						"name": "Github (V2)",
+						"link": "https://github.com/AJR07/Graph-Visualiser-v2"
+					}
+				]
+			},
+			{
+				"title": "Sorting Algorithm Visualizer",
+				"version": "1.0",
+				"description": "A simple tool to visualize sorting algorithms :D",
+				"primaryLink": "https://visual-sort-ajr07.web.app/",
+				"links": [
+					{
+						"name": "V1",
+						"link": "https://visual-sort-ajr07.web.app/"
+					},
+					{
+						"name": "Github",
+						"link": "https://github.com/AJR07/Sorting-Algorithms"
+					}
+				],
 				"createdAt": "2021-09-01",
+				"lastUpdated": "2021-09-01"
+			}
+		]
+	},
+	{
+		"title": "App Development",
+		"colourChoice": "green",
+		"projects": [
+			{
+				"title": "📝 WriteZi",
+				"version": "1.0",
+				"description": "Group 1 (Cold Chocolate)'s 2021 SAP Project focusing on Chinese spelling. ",
+				"primaryLink": "https://apps.apple.com/ph/app/writezi/id1596864534",
+				"links": [
+					{
+						"name": "App Store",
+						"link": "https://apps.apple.com/ph/app/writezi/id1596864534"
+					},
+					{
+						"name": "Github",
+						"link": "https://github.com/swiftinsg/2021-writezi"
+					}
+				],
+				"createdAt": "2021-07-01",
 				"lastUpdated": "2021-09-01"
 			}
 		]

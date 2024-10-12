@@ -15,25 +15,24 @@
 			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
 			overlay: 'rgba(33, 122, 255, 0.1)'
 		},
-		// TODO: UPDATE
 		green: {
-			colour: '#85D7A9',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
+			colour: '#85D7A6',
+			background: 'linear-gradient(-60.974deg, #000000 0%, #1A5A0F 100%)',
 			overlay: 'rgba(33, 122, 255, 0.1)'
 		},
 		red: {
 			colour: '#D78585',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
+			background: 'linear-gradient(-60.974deg, #000000 0%, #5A0F0F 100%);',
 			overlay: 'rgba(33, 122, 255, 0.1)'
 		},
 		yellow: {
 			colour: '#D7D785',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
+			background: 'linear-gradient(-60.974deg, #000000 0%, #585A0F 100%);',
 			overlay: 'rgba(33, 122, 255, 0.1)'
 		},
 		purple: {
 			colour: '#D785D7',
-			background: 'linear-gradient(-63.502deg, #000000 0%, #143356 100%)',
+			background: 'linear-gradient(-60.974deg, #000000 0%, #4B0F5A 100%);',
 			overlay: 'rgba(33, 122, 255, 0.1)'
 		}
 	};
