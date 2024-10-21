@@ -9,5 +9,6 @@ export enum Colour {
 export type ColourInfo = {
 	colour: string;
 	background: string;
-	overlay: string;
+    overlay: string;
+    overall: Colour;
 }

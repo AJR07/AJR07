@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { SquareArrowOutUpRight } from 'lucide-svelte';
+	import { config } from 'process';
 	import type { ColourInfo } from 'src/types/Colours';
 	import type { ProjectInfo } from 'src/types/ProjectInfo';
 
@@ -16,14 +17,16 @@
 			{projectInfo.title} v{projectInfo.version}
 		</a>
 	</h3>
+
+	<!-- UPDATE TAILWIND.CONFIG.TS FOR DYNAMICALLY GENERATED STYLES -->
 	<div class="flex flex-row gap-2">
 		<span
-			class="inline-flex items-center rounded bg-green-50 px-2 py-1 text-xs font-medium text-green-800"
+			class="inline-flex items-center rounded bg-{chosenColour.overall}-200 px-2 py-1 text-xs font-medium text-{chosenColour.overall}-900"
 		>
 			Created: {projectInfo.createdAt.toLocaleDateString()}
 		</span>
 		<span
-			class="inline-flex items-center rounded bg-orange-50 px-2 py-1 text-xs font-medium text-orange-800"
+			class="inline-flex items-center rounded bg-{chosenColour.overall}-100 px-2 py-1 text-xs font-medium text-{chosenColour.overall}-800"
 		>
 			Last Updated: {projectInfo.lastUpdated.toLocaleDateString()}
 		</span>

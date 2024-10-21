@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+
+const usedColors = ['blue', 'green', 'red', 'yellow', 'purple'];
+
 const config = {
 	darkMode: 'media',
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	safelist: ['dark'],
+	safelist: ['dark'].concat(usedColors.map((c) => `text-${c}-900`), usedColors.map((c) => `text-${c}-800`), usedColors.map((c) => `bg-${c}-100`), usedColors.map((c) => `bg-${c}-200`)),
 	theme: {
 		container: {
 			center: true,
