@@ -16,7 +16,7 @@
 </script>
 
 <div id="container" class="mb-16">
-	<SideNavbar />
+	<SideNavbar projectContainer={processedProjectContainers} />
 	<div id="main" class="flex min-h-svh flex-col">
 		<div class="flex flex-col h-svh">
 			<img
