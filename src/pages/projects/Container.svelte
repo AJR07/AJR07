@@ -39,7 +39,7 @@
 	const chosenColour = COLOURS[colourChoice];
 </script>
 
-<div id={containerTitle} class="p-6 pl-48 h-min" style="{`background: ${chosenColour.background}`}">
+<div id={containerTitle} class="p-6 pl-28 h-min" style="{`background: ${chosenColour.background}`}">
 	<h2
 		class="text-5xl font-bold mb-6"
 		style="{`color: ${chosenColour.colour}`}"
