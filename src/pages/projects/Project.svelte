@@ -12,9 +12,9 @@
 	style="{`background: ${chosenColour.overlay}; color: ${chosenColour.colour}`}"
 >
 	<h3 class="text-3xl font-bold hover:cursor-pointer hover:underline">
-		<a href="{projectInfo.primaryLink}"
-			>{projectInfo.title} v{projectInfo.version}</a
-		>
+		<a href="{projectInfo.primaryLink}">
+			{projectInfo.title} v{projectInfo.version}
+		</a>
 	</h3>
 	<div class="flex flex-row gap-2">
 		<span

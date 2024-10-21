@@ -1,6 +1,7 @@
-<script>
+<script lang="ts">
 	import ExpandableSelector from '../../components/ExpandableSelector.svelte';
-	export let projectContainer;
+	import type { ContainerInfo } from '../../types/ContainerInfo';
+	export let projectContainer: ContainerInfo[];
 
 	let containerTitles = projectContainer.map((container) => container.title);
 	containerTitles.unshift('Home');
