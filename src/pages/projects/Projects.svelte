@@ -18,7 +18,7 @@
 <div id="container" class="mb-16">
 	<SideNavbar projectContainer={processedProjectContainers} />
 	<div id="main" class="flex min-h-svh flex-col">
-		<div class="flex flex-col h-svh">
+		<div id="Home" class="flex flex-col h-svh">
 			<img
 				id="profile-picture"
 				src="AJR.png"

@@ -43,7 +43,7 @@
 		let button = document.getElementById(`${text}-button`);
 		if (container && button) {
 			let rect = container.getBoundingClientRect();
-			console.log(rect, text);
+
 			if (rect.bottom > 0 && rect.bottom < window.innerHeight) {
 				internallyFocused = true;
 			} else {

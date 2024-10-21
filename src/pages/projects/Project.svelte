@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { SquareArrowOutUpRight } from 'lucide-svelte';
-import type { ColourInfo } from 'src/types/Colours';
+	import type { ColourInfo } from 'src/types/Colours';
 	import type { ProjectInfo } from 'src/types/ProjectInfo';
 
 	export let projectInfo: ProjectInfo;
@@ -8,7 +8,7 @@ import type { ColourInfo } from 'src/types/Colours';
 </script>
 
 <div
-	class="hover:scale-102 flex h-auto w-full transform flex-col gap-2 rounded-lg p-6 shadow-md transition duration-500"
+	class="flex h-auto w-full transform flex-col gap-2 rounded-lg p-6 shadow-md transition duration-500 hover:scale-102"
 	style="{`background: ${chosenColour.overlay}; color: ${chosenColour.colour}`}"
 >
 	<h3 class="text-3xl font-bold hover:cursor-pointer hover:underline">
@@ -32,11 +32,11 @@ import type { ColourInfo } from 'src/types/Colours';
 	<div id="links" class="flex flex-row gap-3">
 		{#each projectInfo.links as link}
 			<button
-				class="flex gap-2 items-center rounded px-4 py-2 font-bold text-white hover:scale-102"
+				class="flex items-center gap-2 rounded px-4 py-2 font-bold text-white hover:scale-102"
 				style="{`background: ${chosenColour.overlay}`}"
 				on:click="{() => window.open(link.link, '_blank')}"
 			>
-				<SquareArrowOutUpRight/>
+				<SquareArrowOutUpRight />
 				<span class="text-white">{link.name}</span>
 			</button>
 		{/each}
