@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { SquareArrowOutUpRight } from 'lucide-svelte';
-	import { config } from 'process';
 	import type { ColourInfo } from 'src/types/Colours';
 	import type { ProjectInfo } from 'src/types/ProjectInfo';
 
