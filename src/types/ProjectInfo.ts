@@ -14,4 +14,7 @@ export interface ProjectInfo {
 	// dates
 	createdAt: Date;
 	lastUpdated: Date;
+
+	// others
+	img: string;
 }
