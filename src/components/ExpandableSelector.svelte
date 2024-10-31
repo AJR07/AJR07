@@ -7,7 +7,6 @@
 		if (container && button) {
 			let rect = container.getBoundingClientRect();
 
-			console.log(text, rect.top, rect.bottom, window.innerHeight);
 			if (rect.top <= window.innerHeight && rect.bottom >= 0) {
 				return true;
 			} else {
