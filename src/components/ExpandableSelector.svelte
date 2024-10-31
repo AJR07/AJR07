@@ -1,9 +1,26 @@
 <script lang="ts">
 	export let text: string;
 
+	const checkBoundingBoxes = (): boolean => {
+		let container = document.getElementById(text);
+		let button = document.getElementById(`${text}-button`);
+		if (container && button) {
+			let rect = container.getBoundingClientRect();
+
+			console.log(text, rect.top, rect.bottom, window.innerHeight);
+			if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		return false;
+	}
+
 	let displayText = text[0],
 		running = false,
-		internallyFocused = false;
+		internallyFocused = checkBoundingBoxes();
+
 	const addToText = () => {
 		if (displayText.length >= text.length) {
 			running = false;
@@ -38,19 +55,7 @@
 		});
 	};
 
-	addEventListener('scroll', () => {
-		let container = document.getElementById(text);
-		let button = document.getElementById(`${text}-button`);
-		if (container && button) {
-			let rect = container.getBoundingClientRect();
-
-			if (rect.bottom > 0 && rect.bottom < window.innerHeight) {
-				internallyFocused = true;
-			} else {
-				internallyFocused = false;
-			}
-		}
-	});
+	addEventListener('scroll', () => internallyFocused = checkBoundingBoxes());
 </script>
 
 <!-- When hovering over the button, it shows the full name with a background -->
