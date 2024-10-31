@@ -16,9 +16,9 @@
 </script>
 
 <div id="container" class="mb-16">
-	<SideNavbar projectContainer={processedProjectContainers} />
-	<div id="main" class="flex min-h-svh flex-col">
-		<div id="Home" class="flex flex-col h-svh">
+	<SideNavbar projectContainer="{processedProjectContainers}" />
+	<div id="main" class="flex flex-col" style="min-height: calc(100vh - 4rem);">
+		<div id="Home" class="flex flex-col" style="height: calc(100vh - 4rem);">
 			<img
 				id="profile-picture"
 				src="AJR.png"
@@ -31,6 +31,20 @@
 			>
 				PROJECTS :D
 			</h1>
+
+			<span class="flex flex-1"/>
+
+			<div class="flex flex-col items-center gap-2 mb-5">
+				<img
+					src="/icons/TripleDownArrow.svg"
+					alt="triple-down-arrow"
+					class="w-10 hover:scale-105"
+					id="down-arrow"
+				/>
+				<p>
+					scroll for more
+				</p>
+			</div>
 		</div>
 		{#each processedProjectContainers as processedProjectContainer}
 			<Container
