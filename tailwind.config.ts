@@ -51,7 +51,7 @@ const config = {
 				}
 			},
 			fontFamily: {
-				sans: ['Roboto Flex', 'sans-serif']
+				serif: ['Ubuntu', 'serif']
 			},
 			scale: {
                 102: '1.02'

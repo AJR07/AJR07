@@ -1,4 +1,4 @@
-<div id="container" class="mb-16">
+<div id="container" class="mb-16 overflow-x-hidden">
 	<div id="main" class="flex min-h-svh flex-col items-center">
 		<img
 			id="profile-picture"

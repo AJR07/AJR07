@@ -13,38 +13,43 @@
 			lastUpdated: new Date(project.lastUpdated)
 		}))
 	}));
+
+	const scrollToEnd = () => {
+		const container = document.getElementById('container');
+		container?.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'end' });
+	};
 </script>
 
 <div id="container" class="mb-16">
 	<SideNavbar projectContainer="{processedProjectContainers}" />
-	<div id="main" class="flex flex-col" style="min-height: calc(100vh - 4rem);">
-		<div id="Home" class="flex flex-col" style="height: calc(100vh - 4rem);">
+	<div id="main" class="flex flex-col">
+ 		<div id="Home" class="flex flex-col h-min min-h-svh items-center">
 			<img
 				id="profile-picture"
 				src="AJR.png"
 				alt="AJR-profile"
-				class="-mb-[7.5%] -mt-[5%] w-3/4 self-center"
+				class="-mb-[7.5%] -mt-[5%] w-3/4"
 			/>
 			<h1
 				id="header"
-				class="bg-gradient-to-r from-[#58ff5d] to-[#ffd000] !bg-clip-text text-center text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+				class="bg-gradient-to-r from-[#58ff5d] to-[#ffd000] !bg-clip-text text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
 			>
 				PROJECTS :D
 			</h1>
 
 			<span class="flex flex-1"/>
 
-			<div class="flex flex-col items-center gap-2 mb-5">
+			<button class="absolute bottom-20 flex flex-col items-center gap-2 animate-pulse hover:scale-105 hover:cursor-pointer" on:click={scrollToEnd}>
 				<img
 					src="/icons/TripleDownArrow.svg"
 					alt="triple-down-arrow"
-					class="w-10 hover:scale-105"
+					class="w-10"
 					id="down-arrow"
 				/>
-				<p>
-					scroll for more
+				<p class="font-bold">
+					Scroll For More
 				</p>
-			</div>
+			</button>
 		</div>
 		{#each processedProjectContainers as processedProjectContainer}
 			<Container
