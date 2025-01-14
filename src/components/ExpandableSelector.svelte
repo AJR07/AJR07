@@ -14,7 +14,7 @@
 			}
 		}
 		return false;
-	}
+	};
 
 	let displayText = text[0],
 		running = false,
@@ -54,7 +54,9 @@
 		});
 	};
 
-	addEventListener('scroll', () => internallyFocused = checkBoundingBoxes());
+	addEventListener('scroll', () => {
+		internallyFocused = checkBoundingBoxes();
+	});
 </script>
 
 <!-- When hovering over the button, it shows the full name with a background -->

@@ -33,6 +33,7 @@
 	<p>{projectInfo.description}</p>
 
 	<img src={projectInfo.img} alt={`project-${projectInfo.title}-image`}/>
+	<span class="flex-1"/>
 
 	<div id="links" class="flex flex-row gap-3">
 		{#each projectInfo.links as link}

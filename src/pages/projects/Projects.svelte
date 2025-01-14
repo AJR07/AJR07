@@ -3,7 +3,17 @@
 	import projectContainers from '../../data/projects.json';
 	import { Colour } from '../../types/Colours';
 	import SideNavbar from './SideNavbar.svelte';
+	import { ChevronsDown } from 'lucide-svelte';
+	import GlowBlob from '../../components/GlowBlob.svelte';
 
+    // Generate glow blob positions
+    const randomPositions = Array.from({ length: 4 }, () => ({
+        top: `${Math.floor(Math.random() * window.innerHeight) - window.innerHeight / 2}px`,
+        left: `${Math.floor(Math.random() * window.innerWidth) - window.innerWidth / 2}px`,
+		color: `#${Math.floor(Math.random() * 16777215).toString(16)}`
+    }));
+
+	// Project Containers
 	const processedProjectContainers = projectContainers.map((container) => ({
 		...container,
 		colourChoice: container.colourChoice as Colour,
@@ -21,6 +31,13 @@
 </script>
 
 <div id="container" class="mb-16">
+	<GlowBlob color="#58ff5d" size={"20vw"} top={"-10px"} left={"-10px"} />
+	<GlowBlob color="#ffd000" size={"20vw"} bottom={"-10px"} right={"-10px"} />
+
+	{#each randomPositions as { top, left, color }, _}
+		<GlowBlob color={color} size={"30vw"} top={top} left={left} />
+	{/each}
+
 	<SideNavbar projectContainer="{processedProjectContainers}" />
 	<div id="main" class="flex flex-col">
  		<div id="Home" class="flex flex-col h-min min-h-svh items-center">
@@ -39,13 +56,8 @@
 
 			<span class="flex flex-1"/>
 
-			<button class="absolute bottom-20 flex flex-col items-center gap-2 animate-pulse hover:scale-105 hover:cursor-pointer" on:click={scrollToEnd}>
-				<img
-					src="/icons/TripleDownArrow.svg"
-					alt="triple-down-arrow"
-					class="w-10"
-					id="down-arrow"
-				/>
+			<button class="absolute bottom-20 flex flex-col items-center animate-pulse hover:scale-105 hover:cursor-pointer" on:click={scrollToEnd}>
+				<ChevronsDown class="w-16 h-auto" />
 				<p class="font-bold">
 					Scroll For More
 				</p>
