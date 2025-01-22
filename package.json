@@ -24,7 +24,7 @@
 		"svelte-spa-router": "^4.0.1",
 		"tailwindcss": "^3.4.15",
 		"tslib": "^2.6.2",
-		"vite": "^5.4.11"
+		"vite": "^5.4.14"
 	},
 	"dependencies": {
 		"@rollup/wasm-node": "^4.21.0",
