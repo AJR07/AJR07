@@ -1,7 +1,6 @@
 export interface ProjectInfo {
 	// metadata
 	title: string;
-	version: string;
 	description: string;
 
 	// links

@@ -30,7 +30,7 @@
 	};
 </script>
 
-<div id="container" class="mb-16">
+<div id="container">
 	<GlowBlob color="#58ff5d" size={"20vw"} top={"-10px"} left={"-10px"} />
 	<GlowBlob color="#ffd000" size={"20vw"} bottom={"-10px"} right={"-10px"} />
 

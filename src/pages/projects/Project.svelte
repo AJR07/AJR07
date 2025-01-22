@@ -10,13 +10,13 @@
 </script>
 
 <div
-	class="flex h-40 flex-1 p-6 rounded-lg shadow-md transition duration-500 hover:scale-102"
+	class="relative flex items-center justify-center h-40 flex-1 rounded-lg shadow-md transition duration-500 hover:scale-102"
 	style="{`background: ${chosenColour.overlay}; color: ${chosenColour.colour}`}"
 	role="region"
 	on:mouseenter="{() => (hovering = true)}"
 	on:mouseleave="{() => (hovering = false)}"
 >
-	<div id="default-container" class="{`self-center transition duration-500 w-11/12 ${hovering ? 'opacity-0' : 'opacity-100'}`}">
+	<div id="default-container" class="{`transition duration-500 w-11/12 ${hovering ? 'opacity-0' : 'opacity-100'}`}">
 		<a
 			href="{projectInfo.primaryLink}"
 			class="text-3xl font-bold hover:underline"
@@ -25,7 +25,7 @@
 		</a>
 	</div>
 
-	<div class="{`absolute transition duration-500 ${hovering ? 'opacity-100' : 'opacity-0'}`}">
+	<div id="overlay-container" class="{`p-4 absolute flex flex-col w-full h-full transition duration-500 ${hovering ? 'opacity-100' : 'opacity-0'}`}">
 		<!-- UPDATE TAILWIND.CONFIG.TS FOR DYNAMICALLY GENERATED STYLES -->
 		<div class="flex flex-row gap-2">
 			<span
@@ -39,7 +39,10 @@
 				Last Updated: {projectInfo.lastUpdated.toLocaleDateString()}
 			</span>
 		</div>
+
 		<p>{projectInfo.description}</p>
+
+		<span class="flex-1"/>
 
 		<div id="links" class="flex flex-row gap-3">
 			{#each projectInfo.links as link}
