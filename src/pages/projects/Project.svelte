@@ -10,19 +10,21 @@
 </script>
 
 <div
-	class="relative flex items-center justify-center h-40 flex-1 rounded-lg shadow-md transition duration-500 hover:scale-102"
+	class="relative flex items-center justify-center h-40 flex-1 rounded-lg shadow-xl transition duration-500 hover:scale-102"
 	style="{`background: ${chosenColour.overlay}; color: ${chosenColour.colour}`}"
 	role="region"
 	on:mouseenter="{() => (hovering = true)}"
 	on:mouseleave="{() => (hovering = false)}"
 >
-	<div id="default-container" class="{`transition duration-500 w-11/12 ${hovering ? 'opacity-0' : 'opacity-100'}`}">
+	<div id="default-container" class="{`w-full h-full ml-5 flex items-center transition duration-500 ${hovering ? 'opacity-0' : 'opacity-100'}`}">
 		<a
 			href="{projectInfo.primaryLink}"
-			class="text-3xl font-bold hover:underline"
+			class="w-5/12 text-3xl font-bold hover:underline"
 		>
 			{projectInfo.title}
 		</a>
+		<span class="flex-1"/>
+		<img class="w-6/12 h-full object-cover rounded-r-lg" src={projectInfo.img} alt={`${projectInfo.title}-image`} />
 	</div>
 
 	<div id="overlay-container" class="{`p-4 absolute flex flex-col w-full h-full transition duration-500 ${hovering ? 'opacity-100' : 'opacity-0'}`}">
