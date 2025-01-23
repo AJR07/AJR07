@@ -33,16 +33,16 @@
 			<span
 				class="inline-flex items-center rounded bg-{chosenColour.overall}-200 px-2 py-1 text-xs font-medium text-{chosenColour.overall}-900"
 			>
-				Created: {projectInfo.createdAt.toLocaleDateString()}
+				Created: {projectInfo.createdAt}
 			</span>
 			<span
 				class="inline-flex items-center rounded bg-{chosenColour.overall}-100 px-2 py-1 text-xs font-medium text-{chosenColour.overall}-800"
 			>
-				Last Updated: {projectInfo.lastUpdated.toLocaleDateString()}
+				Last Updated: {projectInfo.lastUpdated}
 			</span>
 		</div>
 
-		<p>{projectInfo.description}</p>
+		<p class="text-white">{projectInfo.description}</p>
 
 		<span class="flex-1"/>
 

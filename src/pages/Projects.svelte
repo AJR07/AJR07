@@ -17,11 +17,6 @@
 	const processedProjectContainers = projectContainers.map((container) => ({
 		...container,
 		colourChoice: container.colourChoice as Colour,
-		projects: container.projects.map((project) => ({
-			...project,
-			createdAt: new Date(project.createdAt),
-			lastUpdated: new Date(project.lastUpdated)
-		}))
 	}));
 
 	const scrollToEnd = () => {
@@ -31,8 +26,8 @@
 </script>
 
 <div id="container">
-	<GlowBlob color="#58ff5d" size={"20vw"} top={"-10px"} left={"-10px"} />
-	<GlowBlob color="#ffd000" size={"20vw"} bottom={"-10px"} right={"-10px"} />
+	<GlowBlob color="#58ff5d" size={"30vw"} top={"-10px"} left={"-10px"} />
+	<GlowBlob color="#ffd000" size={"30vw"} bottom={"-10px"} right={"-10px"} />
 
 	{#each randomPositions as { top, left, color }, _}
 		<GlowBlob color={color} size={"30vw"} top={top} left={left} />

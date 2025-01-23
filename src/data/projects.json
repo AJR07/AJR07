@@ -5,7 +5,7 @@
 		"projects": [
 			{
 				"title": "Countdown",
-				"description": "A simple app to store and display countdowns to important event.",
+				"description": "A simple app to store and display countdowns to important events.",
 				"primaryLink": "https://countdown-ajr07.vercel.app/",
 				"links": [
 					{
@@ -21,13 +21,13 @@
 						"link": "https://github.com/AJR07/Countdown"
 					}
 				],
-				"createdAt": "2021-09-01",
-				"lastUpdated": "2021-09-01",
+				"createdAt": "2021",
+				"lastUpdated": "2024",
 				"img": "/projects/Screenshot_20241031_115608.png"
 			},
 			{
 				"title": "Link Shortener",
-				"description": "A simple link shortener app for fun :D Originally made for the sole purpose of rick-rolling friends during April Fools.",
+				"description": "A simple link shortener app for fun :D. Originally made for the sole purpose of rick-rolling friends during April Fools when the link is not found.",
 				"primaryLink": "https://lsjr.vercel.app/",
 				"links": [
 					{
@@ -43,8 +43,8 @@
 						"link": "https://github.com/AJR07/Link-Shorterner"
 					}
 				],
-				"createdAt": "2021-04-19",
-				"lastUpdated": "2024-07-14",
+				"createdAt": "2021",
+				"lastUpdated": "2024",
 				"img": "/projects/Screenshot_20241031_140212.png"
 			},
 			{
@@ -62,7 +62,7 @@
 					}
 				],
 				"createdAt": "2021",
-				"lastUpdated": "2022-09-11",
+				"lastUpdated": "2022",
 				"img": "/projects/Screenshot_20241031_140453.png"
 			},
 			{
@@ -79,13 +79,13 @@
 						"link": "https://github.com/AJR07/Typeracer"	
 					}
 				],
-				"createdAt": "2023-01-18",
-				"lastUpdated": "2023-09-16",
+				"createdAt": "2023",
+				"lastUpdated": "2023",
 				"img": "/projects/Screenshot_20241031_140709.png"
 			},
 			{
 				"title": "Graph Visualizer",
-				"description": "A simple tool to visualize graphs from adjacency matrixes, adjacency lists and edge lists. Originally done with @wangy412 :D",
+				"description": "A simple tool to visualize graphs from adjacency matrixes, adjacency lists and edge lists. Original version done together with @wangy412 :D",
 				"primaryLink": "https://graph-visual.web.app/",
 				"links": [
 					{
@@ -105,8 +105,8 @@
 						"link": "https://github.com/AJR07/Graph-Visualiser-v2"
 					}
 				],
-				"createdAt": "2021-09-01",
-				"lastUpdated": "2021-09-01",
+				"createdAt": "2021",
+				"lastUpdated": "2023",
 				"img": "/projects/Screenshot_20241031_141319.png"
 			},
 			{
@@ -123,8 +123,8 @@
 						"link": "https://github.com/AJR07/Sorting-Algorithms"
 					}
 				],
-				"createdAt": "2021-09-01",
-				"lastUpdated": "2021-09-01",
+				"createdAt": "2023",
+				"lastUpdated": "2023",
 				"img": "/projects/Screenshot_20241031_141411.png"
 			}
 		]
