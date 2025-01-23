@@ -1,5 +1,42 @@
-<div id="container" class="	overflow-x-hidden">
-	<div id="main" class="flex min-h-svh flex-col items-center">
+<script lang="ts">
+	import projectContainers from '../data/projects.json';
+	import type { Colour } from 'src/types/Colours';
+	import Projects from './projects/Projects.svelte';
+	import { ChevronsDown } from 'lucide-svelte';
+	import GlowBlob from '../components/GlowBlob.svelte';
+
+	// Project Containers
+	const processedProjectContainers = projectContainers.map((container) => ({
+		...container,
+		colourChoice: container.colourChoice as Colour
+	}));
+
+	// scroll to end of page when button is clicked
+	const scrollToEnd = () => {
+		const container = document.getElementsByTagName('main')[0];
+		container?.scrollIntoView({
+			behavior: 'smooth',
+			block: 'end',
+			inline: 'end'
+		});
+	};
+</script>
+
+<main>
+	<GlowBlob
+		color="#58c2ff"
+		size="40vw"
+		top="-10vw"
+		left="-10vw"
+	/>
+	<GlowBlob
+		color="#4cdb58"
+		size="40vw"
+		bottom="-10vw"
+		right="-10vw"
+	/>
+
+	<div id="greeter" class="flex h-min min-h-svh flex-col items-center">
 		<img
 			id="profile-picture"
 			src="AJR.png"
@@ -8,27 +45,21 @@
 		/>
 		<h1
 			id="header"
-			class="bg-gradient-to-r from-[#8eff65] to-[#1fd6ff] !bg-clip-text text-center text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+			class="bg-gradient-to-r from-[#58c2ff] to-[#4cdb58] !bg-clip-text text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
 		>
-			HALLOOOOOOOOO!
+			👋 Hello, I'm AJR!
 		</h1>
-		<div>
-			<a class="px-5 text-[3vw] font-bold hover:underline" href="#about-me">
-				About Me
-			</a>
-			<span class="mx-10 text-[3vw] font-bold"> • </span>
-			<a class="px-5 text-[3vw] font-bold hover:underline" href="/#/projects">
-				Projects
-			</a>
-		</div>
-	</div>
 
-	<div id="about-me">
-		<h1
-			id="header"
-			class="mx-10 bg-gradient-to-r from-[#46ffed] to-[#bd67ff] !bg-clip-text text-[4vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+		<span class="flex flex-1"></span>
+
+		<button
+			class="absolute bottom-20 flex animate-pulse flex-col items-center hover:scale-105 hover:cursor-pointer"
+			on:click="{scrollToEnd}"
 		>
-			> About Me
-		</h1>
+			<ChevronsDown class="h-auto w-16" />
+			<p class="font-bold">Scroll For More</p>
+		</button>
 	</div>
-</div>
+	
+	<Projects projectContainers="{processedProjectContainers}" />
+</main>

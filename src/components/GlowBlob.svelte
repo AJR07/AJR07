@@ -9,7 +9,7 @@
 
 <div
 	id="glow-blob"
-	class="blur-3xl filter opacity-20 rounded-full"
+	class="absolute blur-3xl filter opacity-20 rounded-full"
 	style:background-color="{color}"
 	style:width="{size}"
 	style:height="{size}"
