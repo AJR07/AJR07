@@ -5,6 +5,7 @@
 	import { ChevronsDown } from 'lucide-svelte';
 	import GlowBlob from '../components/GlowBlob.svelte';
 	import SectionLabel from '../components/SectionLabel.svelte';
+	import AboutMe from './aboutme/AboutMe.svelte';
 
 	// Project Containers
 	const processedProjectContainers = projectContainers.map((container) => ({
@@ -54,6 +55,7 @@
 
 	<div id="about-me">
 		<SectionLabel label="About Me" colour="#4cdb58" />
+		<AboutMe />
 	</div>
 
 	<div id="projects">
