@@ -4,6 +4,7 @@
 	import Projects from './projects/Projects.svelte';
 	import { ChevronsDown } from 'lucide-svelte';
 	import GlowBlob from '../components/GlowBlob.svelte';
+	import SectionLabel from '../components/SectionLabel.svelte';
 
 	// Project Containers
 	const processedProjectContainers = projectContainers.map((container) => ({
@@ -23,18 +24,8 @@
 </script>
 
 <main>
-	<GlowBlob
-		color="#58c2ff"
-		size="40vw"
-		top="-10vw"
-		left="-10vw"
-	/>
-	<GlowBlob
-		color="#4cdb58"
-		size="40vw"
-		bottom="-10vw"
-		right="-10vw"
-	/>
+	<GlowBlob color="#58c2ff" size="40vw" top="-10vw" left="-10vw" />
+	<GlowBlob color="#4cdb58" size="40vw" bottom="-10vw" right="-10vw" />
 
 	<div id="greeter" class="flex h-min min-h-svh flex-col items-center">
 		<img
@@ -60,6 +51,13 @@
 			<p class="font-bold">Scroll For More</p>
 		</button>
 	</div>
-	
-	<Projects projectContainers="{processedProjectContainers}" />
+
+	<div id="about-me">
+		<SectionLabel label="About Me" colour="#4cdb58" />
+	</div>
+
+	<div id="projects">
+		<SectionLabel label="Projects" colour="#58c2ff" />
+		<Projects projectContainers="{processedProjectContainers}" />
+	</div>
 </main>

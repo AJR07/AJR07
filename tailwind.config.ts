@@ -51,7 +51,8 @@ const config = {
 				}
 			},
 			fontFamily: {
-				serif: ['Ubuntu', 'serif']
+				serif: ['Ubuntu', 'serif'],
+				mono: ['Source Code Pro', 'monospace']
 			},
 			scale: {
                 102: '1.02'
