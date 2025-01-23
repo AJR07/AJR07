@@ -24,10 +24,10 @@
 </script>
 
 <main>
-	<GlowBlob color="#58c2ff" size="40vw" top="-10vw" left="-10vw" />
-	<GlowBlob color="#4cdb58" size="40vw" bottom="-10vw" right="-10vw" />
+	<div id="greeter" class="relative overflow-hidden flex h-min min-h-svh flex-col items-center">
+		<GlowBlob color="#58c2ff" size="40vw" top="-10vw" left="-10vw" />
+		<GlowBlob color="#4cdb58" size="40vw" bottom="-10vw" right="-10vw" />
 
-	<div id="greeter" class="flex h-min min-h-svh flex-col items-center">
 		<img
 			id="profile-picture"
 			src="AJR.png"
@@ -38,7 +38,7 @@
 			id="header"
 			class="bg-gradient-to-r from-[#58c2ff] to-[#4cdb58] !bg-clip-text text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
 		>
-			👋 Hello, I'm AJR!
+			👋 Hallo, I'm AJR!
 		</h1>
 
 		<span class="flex flex-1"></span>
