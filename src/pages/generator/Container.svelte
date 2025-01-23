@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { ProjectInfo } from 'src/types/ProjectInfo';
-	import Project from './Project.svelte';
+	import Project from './Item.svelte';
 	import type { Colour } from '../../types/Colours';
 	import { COLOURS } from '$lib/colourdata';
 

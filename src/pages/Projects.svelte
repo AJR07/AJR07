@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Container from './Container.svelte';
-	import projectContainers from '../../data/projects.json';
-	import { Colour } from '../../types/Colours';
-	import SideNavbar from './SideNavbar.svelte';
+	import Container from './generator/Container.svelte';
+	import projectContainers from '../data/projects.json';
+	import { Colour } from '../types/Colours';
+	import SideNavbar from './generator/SideNavbar.svelte';
 	import { ChevronsDown } from 'lucide-svelte';
-	import GlowBlob from '../../components/GlowBlob.svelte';
+	import GlowBlob from '../components/GlowBlob.svelte';
 
     // Generate glow blob positions
     const randomPositions = Array.from({ length: 4 }, () => ({
