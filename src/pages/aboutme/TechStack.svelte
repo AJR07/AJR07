@@ -2,7 +2,7 @@
 
 <div
 	id="others"
-	class="tranistion-all my-1 flex h-14 flex-row gap-3 bg-yellow-700/30 p-3 duration-500 hover:scale-102"
+	class="tranistion-all rounded-md my-1 flex h-14 flex-row gap-3 bg-yellow-700/30 p-3 duration-500 hover:scale-102"
 >
 	<h4 class="text-xl font-semibold">General:</h4>
 	<img
@@ -29,7 +29,7 @@
 
 <div
 	id="languages"
-	class="tranistion-all my-1 flex h-14 flex-row gap-3 bg-green-700/30 p-3 duration-500 hover:scale-102"
+	class="tranistion-all rounded-md my-1 flex h-14 flex-row gap-3 bg-green-700/30 p-3 duration-500 hover:scale-102"
 >
 	<h4 class="text-xl font-semibold">Programming Languages:</h4>
 	<img
@@ -56,7 +56,7 @@
 
 <div
 	id="web-dev"
-	class="tranistion-all my-1 flex h-14 flex-row gap-3 bg-blue-700/30 p-3 duration-500 hover:scale-102"
+	class="tranistion-all rounded-md my-1 flex h-14 flex-row gap-3 bg-blue-700/30 p-3 duration-500 hover:scale-102"
 >
 	<h4 class="text-xl font-semibold">Web Dev:</h4>
 	<img
