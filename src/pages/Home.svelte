@@ -52,14 +52,15 @@
 			<p class="font-bold">Scroll For More</p>
 		</button>
 	</div>
+	<div id="content" class="flex flex-col gap-10">
+		<div id="about-me">
+			<SectionLabel label="About Me" colour="#4cdb58" />
+			<AboutMe />
+		</div>
 
-	<div id="about-me">
-		<SectionLabel label="About Me" colour="#4cdb58" />
-		<AboutMe />
-	</div>
-
-	<div id="projects">
-		<SectionLabel label="Projects" colour="#58c2ff" />
-		<Projects projectContainers="{processedProjectContainers}" />
+		<div id="projects">
+			<SectionLabel label="Projects" colour="#58c2ff" />
+			<Projects projectContainers="{processedProjectContainers}" />
+		</div>
 	</div>
 </main>

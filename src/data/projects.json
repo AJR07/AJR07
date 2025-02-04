@@ -4,6 +4,20 @@
 		"colourChoice": "blue",
 		"projects": [
 			{
+				"title": "🪙 RI cRIdits",
+				"description": "A simple app to store and display countdowns to important events.",
+				"primaryLink": "https://cridits.web.app/",
+				"links": [
+					{
+						"name": "V2",
+						"link": "https://cridits.web.app/"
+					}
+				],
+				"createdAt": "2022",
+				"lastUpdated": "2025",
+				"img": "/projects/image.png"
+			},
+			{
 				"title": "⏰️ Countdown",
 				"description": "A simple app to store and display countdowns to important events.",
 				"primaryLink": "https://countdown-ajr07.vercel.app/",
@@ -155,7 +169,7 @@
 	},
 	{
 		"title": "3D Modelling",
-		"colourChoice": "red",
+		"colourChoice": "yellow",
 		"projects": [
 			{
 				"title": "🍩 Blender Guru Donut",
@@ -184,6 +198,26 @@
 				"createdAt": "2024",
 				"lastUpdated": "2024",
 				"img": "/projects/2025-01-24_13-10.png"
+			}
+		]
+	},
+	{
+		"title": "Others",
+		"colourChoice": "purple",
+		"projects": [
+			{
+				"title": "🤖 MaxiGames Discord Bot",
+				"description": "Built a discord bot that hosts a whole bunch of minigames! (Unfortunately bot is down rn)",
+				"primaryLink": "https://github.com/MaxiGames",
+				"links": [
+					{
+						"name": "Github",
+						"link": "https://github.com/MaxiGames"
+					}
+				],
+				"createdAt": "2021",
+				"lastUpdated": "2023",
+				"img": "/projects/image copy.png"
 			}
 		]
 	}
