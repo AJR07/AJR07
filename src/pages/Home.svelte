@@ -6,6 +6,7 @@
 	import GlowBlob from '../components/GlowBlob.svelte';
 	import SectionLabel from '../components/SectionLabel.svelte';
 	import AboutMe from './aboutme/AboutMe.svelte';
+	import TypeWriter from '../components/TypeWriter.svelte';
 
 	// Project Containers
 	const processedProjectContainers = projectContainers.map((container) => ({
@@ -25,7 +26,10 @@
 </script>
 
 <main>
-	<div id="greeter" class="relative overflow-hidden flex h-min min-h-svh flex-col items-center">
+	<div
+		id="greeter"
+		class="relative flex h-min min-h-svh flex-col items-center overflow-hidden"
+	>
 		<GlowBlob color="#58c2ff" size="40vw" top="-10vw" left="-10vw" />
 		<GlowBlob color="#4cdb58" size="40vw" bottom="-10vw" right="-10vw" />
 
@@ -39,7 +43,7 @@
 			id="header"
 			class="bg-gradient-to-r from-[#58c2ff] to-[#4cdb58] !bg-clip-text text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
 		>
-			👋 Hallo, I'm AJR!
+			<TypeWriter text="👋 Hallo, I'm AJR!" delay={150}/>
 		</h1>
 
 		<span class="flex flex-1"></span>

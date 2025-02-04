@@ -15,6 +15,9 @@ const config = {
 			}
 		},
 		extend: {
+			animation: {
+				typing: 'typing 2s steps(6), blink 1s infinite',
+			},
 			colors: {
 				border: 'hsl(var(--border) / <alpha-value>)',
 				input: 'hsl(var(--input) / <alpha-value>)',

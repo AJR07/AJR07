@@ -1,13 +1,14 @@
 <script>
-	import GHStats from "./GHStats.svelte";
-	import TechStack from "./TechStack.svelte";
+	import TypeWriter from '../../components/TypeWriter.svelte';
+import GHStats from './GHStats.svelte';
+	import TechStack from './TechStack.svelte';
 </script>
 
 <div id="about-me" class="m-4 font-mono">
 	<p class="text-lg">
-		👋 Hi! I am a random guy who loves hopping onto his computer to try random
-		stuff :) I also happen to like planes ✈️
+		<TypeWriter text="👋 Hi! I am a random guy who loves trying random
+		stuff on his computer :) I also happen to like planes ✈️" delay={50} />
 	</p>
-	<TechStack/>
-	<GHStats/>
+	<TechStack />
+	<GHStats />
 </div>
