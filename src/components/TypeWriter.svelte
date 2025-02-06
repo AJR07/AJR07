@@ -1,24 +1,26 @@
 <script lang="ts">
-	import { inview } from 'svelte-inview';
-	export let text: string;
-	export let delay: number;
+    import { inview } from 'svelte-inview';
+    export let text: string;
+    export let delay: number;
 
-	let currentIdx = 0;
+    let currentIdx = 0;
+    let lastTime = 0;
 
-	const appendText = () => {
-		if (currentIdx < text.length) {
-			currentIdx++;
-		}
-		setTimeout(() => {
-			appendText();
-		}, delay);
-	};
+    const appendText = (time: number) => {
+        if (currentIdx < text.length) {
+            if (time - lastTime >= delay) {
+                currentIdx++;
+                lastTime = time;
+            }
+            requestAnimationFrame(appendText);
+        }
+    };
 </script>
 
-<div use:inview="{{}}" on:inview_enter="{appendText}">
-	{#if text.length !== currentIdx}
-		{text.slice(0, currentIdx) + '▮'}
-	{:else}
-		{text}
-	{/if}
+<div use:inview="{{}}" on:inview_enter="{() => requestAnimationFrame(appendText)}">
+    {#if text.length !== currentIdx}
+        {text.slice(0, currentIdx) + '▮'}
+    {:else}
+        {text}
+    {/if}
 </div>
