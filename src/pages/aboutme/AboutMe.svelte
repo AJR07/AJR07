@@ -1,6 +1,6 @@
 <script>
 	import TypeWriter from '../../components/TypeWriter.svelte';
-import GHStats from './GHStats.svelte';
+	import GHStats from './GHStats.svelte';
 	import TechStack from './TechStack.svelte';
 </script>
 

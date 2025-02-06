@@ -7,6 +7,7 @@
 	import SectionLabel from '../components/SectionLabel.svelte';
 	import AboutMe from './aboutme/AboutMe.svelte';
 	import TypeWriter from '../components/TypeWriter.svelte';
+	import { onMount } from 'svelte';
 
 	// Project Containers
 	const processedProjectContainers = projectContainers.map((container) => ({
@@ -23,6 +24,24 @@
 			inline: 'end'
 		});
 	};
+
+	// animate fade-in
+	onMount(() => {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('visible');
+					}
+				});
+			},
+			{ threshold: 0.1 }
+		);
+
+		document.querySelectorAll('.fade-in').forEach((section) => {
+			observer.observe(section);
+		});
+	});
 </script>
 
 <main>
@@ -43,7 +62,7 @@
 			id="header"
 			class="bg-gradient-to-r from-[#58c2ff] to-[#4cdb58] !bg-clip-text text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
 		>
-			<TypeWriter text="👋 Hallo, I'm AJR!" delay={150}/>
+			<TypeWriter text="👋 Hallo, I'm AJR!" delay="{150}" />
 		</h1>
 
 		<span class="flex flex-1"></span>
@@ -57,12 +76,12 @@
 		</button>
 	</div>
 	<div id="content" class="flex flex-col gap-10">
-		<div id="about-me">
+		<div id="about-me" class="fade-in">
 			<SectionLabel label="About Me" colour="#4cdb58" />
 			<AboutMe />
 		</div>
 
-		<div id="projects">
+		<div id="projects" class="fade-in">
 			<SectionLabel label="Projects" colour="#58c2ff" />
 			<Projects projectContainers="{processedProjectContainers}" />
 		</div>
