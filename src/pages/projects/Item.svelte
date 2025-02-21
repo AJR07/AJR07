@@ -16,15 +16,15 @@
 	on:mouseenter="{() => (hovering = true)}"
 	on:mouseleave="{() => (hovering = false)}"
 >
-	<div id="default-container" class="{`w-full h-full ml-5 flex items-center transition duration-500 ${hovering ? 'opacity-0' : 'opacity-100'}`}">
+	<div id="default-container" class="{`w-full h-full md:ml-5 flex flex-col md:flex-row items-center transition duration-500 ${hovering ? 'opacity-0' : 'opacity-100'}`}">
 		<a
 			href="{projectInfo.primaryLink}"
-			class="w-5/12 text-3xl font-bold hover:underline"
+			class="py-2 px-3 md:py-0 md:w-5/12 text-lg md:text-3xl text-center font-bold hover:underline"
 		>
 			{projectInfo.title}
 		</a>
 		<span class="flex-1"/>
-		<img class="w-6/12 h-full object-cover rounded-r-lg" src={projectInfo.img} alt={`${projectInfo.title}-image`} />
+		<img class="w-full h-28 md:w-6/12 md:h-full object-cover rounded-b-lg md:rounded-r-lg" src={projectInfo.img} alt={`${projectInfo.title}-image`} />
 	</div>
 
 	<div id="overlay-container" class="{`p-4 absolute flex flex-col w-full h-full transition duration-500 ${hovering ? 'opacity-100' : 'opacity-0'}`}">

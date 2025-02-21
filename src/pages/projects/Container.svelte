@@ -11,14 +11,14 @@
 	const chosenColour = COLOURS[colourChoice];
 </script>
 
-<div id={containerTitle} class="p-6 pl-20 h-min" style="{`background: ${chosenColour.background}`}">
+<div id={containerTitle} class="p-6 pl-16 h-min" style="{`background: ${chosenColour.background}`}">
 	<h2
-		class="text-5xl font-bold mb-6"
+		class="text-3xl md:text-5xl font-bold mb-6"
 		style="{`color: ${chosenColour.colour}`}"
 	>
 		{containerTitle}
 	</h2>
-	<div class="grid grid-cols-2 gap-6">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		{#each projects as projectInfo}
 			<Project {projectInfo} {chosenColour} />
 		{/each}

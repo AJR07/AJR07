@@ -8,7 +8,7 @@
 
 <div id="projects">
 	<SideNavbar projectContainer="{projectContainers}" />
-	<div class="flex flex-col pb-16	">
+	<div class="flex flex-col pb-16">
 		{#each projectContainers as projectContainer}
 			<Container
 				containerTitle="{projectContainer.title}"

@@ -34,7 +34,7 @@
 
 <span bind:this={sidebarElement} id="sidebar-sample" class="absolute ml-4 mx-4 pt-4 w-20"/>
 
-<div id="sidebar" class="z-20 mx-4 pt-4 flex w-20 h-full flex-col" class:absolute={!isFixed} class:fixed={isFixed}>
+<div id="sidebar" class="z-20 mx-3 pt-4 flex w-20 h-full flex-col" class:absolute={!isFixed} class:fixed={isFixed}>
     {#each containerTitles as title}
         <ExpandableSelector text={title} />
         {#if containerTitles.at(-1) !== title}
