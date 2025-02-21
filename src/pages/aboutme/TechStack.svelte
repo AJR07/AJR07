@@ -1,94 +1,46 @@
 <h3 class="mt-5 text-3xl font-bold">Preferred Tech Stack</h3>
 
 <div
-	id="others"
-	class="tranistion-all rounded-md my-1 flex h-14 flex-row gap-3 bg-yellow-700/30 p-3 duration-500 hover:scale-102"
+    id="others"
+    class="transition-all rounded-md my-1 flex min-h-[3rem] md:min-h-[3.5rem] flex-row items-center gap-3 bg-yellow-700/30 p-3 duration-500 hover:scale-102"
 >
-	<h4 class="text-xl font-semibold">General:</h4>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/windows.png"
-		alt="Windows"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/arch_linux.png"
-		alt="Arch Linux"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png"
-		alt="VS Code"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/onemarc/tech-icons/refs/heads/main/icons/blender-dark.svg"
-		alt="Blender"
-	/>
-	<img
-		src="https://private-user-images.githubusercontent.com/172177048/375818234-fb6070fb-3590-4985-8662-0b1d32c40325.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc2OTQ0NTYsIm5iZiI6MTczNzY5NDE1NiwicGF0aCI6Ii8xNzIxNzcwNDgvMzc1ODE4MjM0LWZiNjA3MGZiLTM1OTAtNDk4NS04NjYyLTBiMWQzMmM0MDMyNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyNFQwNDQ5MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOGNiOWM4NzA3MTlhZDQwMGRhMWNiZTg4ZjBmYzM4MjgyZWY4YmNkYWVlMjRlOTE5ZjNmZDM4MWU2MDk5ZTc1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.tNG6j--nQ9J-NtKeii5mEFBv-lMofiiMQm4KXVtnCpc"
-		alt="Davinci Resolve"
-	/>
+    <h4 class="w-min text-md md:text-xl font-semibold">General:</h4>
+    <div class="flex h-4 sm:h-8 gap-3 sm:gap-6 items-center">
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/windows.png" alt="Windows" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/arch_linux.png" alt="Arch Linux" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="VS Code" />
+        <img class="h-full" src="/icons/Blender.png" alt="Blender" />
+        <img class="h-full" src="/icons/Davinci.png" alt="Davinci Resolve" />
+    </div>
 </div>
 
 <div
-	id="languages"
-	class="tranistion-all rounded-md my-1 flex h-14 flex-row gap-3 bg-green-700/30 p-3 duration-500 hover:scale-102"
+    id="languages"
+    class="transition-all rounded-md my-1 flex min-h-[3rem] md:min-h-[3.5rem] flex-row items-center gap-3 bg-green-700/30 p-3 duration-500 hover:scale-102"
 >
-	<h4 class="text-xl font-semibold">Programming Languages:</h4>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png"
-		alt="Python"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png"
-		alt="JavaScript"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png"
-		alt="TypeScript"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/swift.png"
-		alt="Swift"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c++.png"
-		alt="C++"
-	/>
+    <h4 class="w-min text-md md:text-xl font-semibold">Programming Languages:</h4>
+    <div class="flex h-4 sm:h-8 gap-3 sm:gap-6 items-center">
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/swift.png" alt="Swift" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c++.png" alt="C++" />
+    </div>
 </div>
 
 <div
-	id="web-dev"
-	class="tranistion-all rounded-md my-1 flex h-14 flex-row gap-3 bg-blue-700/30 p-3 duration-500 hover:scale-102"
+    id="web-dev"
+    class="transition-all rounded-md my-1 flex min-h-[3rem] md:min-h-[3.5rem] flex-row items-center gap-3 bg-blue-700/30 p-3 duration-500 hover:scale-102"
 >
-	<h4 class="text-xl font-semibold">Web Dev:</h4>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png"
-		alt="VS Code"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png"
-		alt="TypeScript"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png"
-		alt="Vite"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png"
-		alt="React"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/svelte.png"
-		alt="Svelte"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png"
-		alt="Tailwind CSS"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/firebase.png"
-		alt="Firebase"
-	/>
-	<img
-		src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/supabase.png"
-		alt="Supabase"
-	/>
+    <h4 class="w-min text-md md:text-xl font-semibold">Web Dev:</h4>
+    <div class="flex h-4 sm:h-8 gap-3 sm:gap-6 items-center">
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="VS Code" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png" alt="Vite" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" alt="React" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/svelte.png" alt="Svelte" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png" alt="Tailwind CSS" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/firebase.png" alt="Firebase" />
+        <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/supabase.png" alt="Supabase" />
+    </div>
 </div>
