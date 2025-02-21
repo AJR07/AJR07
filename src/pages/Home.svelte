@@ -44,13 +44,11 @@
 	});
 </script>
 
-<main>
+<div>
 	<div
 		id="greeter"
 		class="relative flex h-min min-h-svh flex-col items-center overflow-hidden"
 	>
-		<GlowBlob color="#58c2ff" size="40vw" top="-10vw" left="-10vw" />
-		<GlowBlob color="#4cdb58" size="40vw" bottom="-10vw" right="-10vw" />
 
 		<img
 			id="profile-picture"
@@ -86,4 +84,4 @@
 			<Projects projectContainers="{processedProjectContainers}" />
 		</div>
 	</div>
-</main>
+</div>

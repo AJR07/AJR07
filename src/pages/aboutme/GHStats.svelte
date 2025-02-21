@@ -3,7 +3,7 @@
 
 <h3 class="mt-5 mb-2 text-3xl font-bold">Github Stats</h3>
 
-<div id="stats" class="w-svw flex flex-wrap flex-col items-start gap-3 overflow-x-auto">
+<div id="stats" class="w-svw flex flex-wrap items-start gap-3 overflow-x-auto">
 	<img
 		src="https://github-readme-stats.vercel.app/api?username=AJR07&show_icons=true&theme=algolia&hide_border=true"
 		alt="Stats"

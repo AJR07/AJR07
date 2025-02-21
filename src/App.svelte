@@ -12,7 +12,7 @@
 	};
 </script>
 
-<main class="bg-black text-white">
+<main class="bg-black text-white w-svw overflow-hidden">
 	<Navbar />
 	<Router {routes} />
 	<Footer />
