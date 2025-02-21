@@ -33,7 +33,8 @@
 		}, 50);
 	};
 
-	const onMouseOver = () => {
+	const onMouseEnter = () => {
+		console.log("ENTERED");
 		displayText = text[0];
 		if (running) return;
 		running = true;
@@ -65,9 +66,9 @@
 <button
 	id="{`${text}-button`}"
 	class="{`h-8 w-8 text-nowrap rounded-full border-2 text-center hover:w-min hover:bg-gray-800 hover:px-4 focus:border-solid focus:border-white ${internallyFocused ? 'border-solid border-white' : 'border-dashed border-gray-400'}`}"
-	on:mouseenter="{onMouseOver}"
-	on:mouseleave="{onMouseLeave}"
-	on:click="{onClick}"
+	on:mouseenter={onMouseEnter}
+	on:mouseleave={onMouseLeave}
+	on:click={onClick}
 >
 	{displayText}
 </button>

@@ -1,4 +1,4 @@
-<footer class="fixed w-svw px-4 pt-3 flex bottom-0 z-10 bg-gray-900">
+<footer class="fixed w-svw px-4 py-1 flex bottom-0 z-10 bg-black">
 	<!-- Start items -->
 	<div class="align-center flex flex-1 items-center">
 		<img alt="ajr07-pic" src="AJR.png" class="w-20" />
