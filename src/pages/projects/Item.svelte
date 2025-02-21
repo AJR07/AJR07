@@ -42,19 +42,19 @@
 			</span>
 		</div>
 
-		<p class="text-white">{projectInfo.description}</p>
+		<p class="text-white text-xs sm:text-sm md:text-md">{projectInfo.description}</p>
 
 		<span class="flex-1"/>
 
 		<div id="links" class="flex flex-row gap-3">
 			{#each projectInfo.links as link}
 				<button
-					class="flex items-center gap-2 rounded px-4 py-2 font-bold text-white hover:scale-102"
+					class="flex items-center gap-2 rounded px-1 md:px-4 py-1 md:py-2 font-bold text-white hover:scale-102"
 					style="{`background: ${chosenColour.overlay}`}"
 					on:click="{() => window.open(link.link, '_blank')}"
 				>
 					<SquareArrowOutUpRight />
-					<span class="text-white">{link.name}</span>
+					<span class="text-white text-xs md:text-base">{link.name}</span>
 				</button>
 			{/each}
 		</div>

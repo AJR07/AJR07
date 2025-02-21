@@ -10,7 +10,7 @@
     let isFixed = false;
 
     const handleScroll = () => {
-        if (sidebarElement.offsetTop && window.scrollY > sidebarElement.offsetTop) {
+        if (sidebarElement && window.scrollY > sidebarElement.offsetTop) {
             isFixed = true;
         } else {
             isFixed = false;

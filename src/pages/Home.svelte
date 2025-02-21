@@ -54,11 +54,11 @@
 			id="profile-picture"
 			src="AJR.png"
 			alt="AJR-profile"
-			class="-mb-[7.5%] -mt-[5%] w-3/4"
+			class="-mb-[7.5%] -mt-[5%] w-full md:w-3/4"
 		/>
 		<h1
 			id="header"
-			class="bg-gradient-to-r from-[#58c2ff] to-[#4cdb58] !bg-clip-text text-[5vw] font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+			class="bg-gradient-to-r from-[#58c2ff] to-[#4cdb58] !bg-clip-text text-4xl md:text-6xl font-bold text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
 		>
 			<TypeWriter text="👋 Hallo, I'm AJR!" delay="{150}" />
 		</h1>

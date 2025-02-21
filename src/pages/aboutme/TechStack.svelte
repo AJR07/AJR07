@@ -5,7 +5,7 @@
     class="transition-all rounded-md my-1 flex min-h-[3rem] md:min-h-[3.5rem] flex-row items-center gap-3 bg-yellow-700/30 p-3 duration-500 hover:scale-102"
 >
     <h4 class="w-max text-md md:text-xl font-semibold">General:</h4>
-    <div class="flex h-4 sm:h-8 gap-3 sm:gap-6 items-center">
+    <div class="flex flex-wrap h-6 sm:h-8 gap-3 sm:gap-6 items-center">
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/windows.png" alt="Windows" />
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/arch_linux.png" alt="Arch Linux" />
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="VS Code" />
@@ -18,8 +18,8 @@
     id="languages"
     class="transition-all rounded-md my-1 flex min-h-[3rem] md:min-h-[3.5rem] flex-row items-center gap-3 bg-green-700/30 p-3 duration-500 hover:scale-102"
 >
-    <h4 class="w-max text-md md:text-xl font-semibold">Programming Languages:</h4>
-    <div class="flex-1 flex h-4 sm:h-8 gap-3 sm:gap-6 items-center">
+    <h4 class="w-min text-md md:text-xl font-semibold">Programming Languages:</h4>
+    <div class="flex flex-wrap h-6 sm:h-8 gap-3 sm:gap-6 items-center">
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" />
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" />
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" />
@@ -32,8 +32,8 @@
     id="web-dev"
     class="transition-all rounded-md my-1 flex min-h-[3rem] md:min-h-[3.5rem] flex-row items-center gap-3 bg-blue-700/30 p-3 duration-500 hover:scale-102"
 >
-    <h4 class="w-max text-md md:text-xl font-semibold">Web Development:</h4>
-    <div class="flex h-4 sm:h-8 gap-3 sm:gap-6 items-center">
+    <h4 class="w-min text-md md:text-xl font-semibold">Web Dev:</h4>
+    <div class="flex flex-wrap h-6 sm:h-8 gap-3 sm:gap-6 items-center">
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="VS Code" />
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" />
         <img class="h-full" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png" alt="Vite" />

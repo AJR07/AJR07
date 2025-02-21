@@ -6,17 +6,15 @@
 
 	<!-- End items -->
 	<div
-		class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+		class="flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
 	>
 		<div class="hidden sm:ml-6 sm:block">
 			<!-- Links -->
-			<div class="flex space-x-4">
-				<a
-					href="/"
-					class="px-3 py-2 text-lg font-bold text-gray-100 hover:bg-gray-700 hover:text-white"
-					>AJR07</a
-				>
-			</div>
+			<a
+				href="/"
+				class="px-3 py-2 text-lg font-bold text-gray-100 hover:bg-gray-700 hover:text-white"
+				>AJR07</a
+			>
 		</div>
 
 		<!-- Github icon -->
