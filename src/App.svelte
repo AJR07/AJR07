@@ -8,6 +8,7 @@
 
 	const routes = {
 		'/': Home,
+		'/resume': Home,
 		'*': NotFound
 	};
 </script>

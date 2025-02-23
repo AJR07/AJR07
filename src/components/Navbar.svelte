@@ -6,7 +6,7 @@
 
 	<!-- End items -->
 	<div
-		class="flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+		class="f/lex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
 	>
 		<div class="hidden sm:ml-6 sm:block">
 			<!-- Links -->
